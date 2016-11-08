@@ -1,0 +1,8 @@
+<page>
+    <view class="review-history-list">
+        <view wx:for="{{list}}">
+            <image src="{{item.imgurl}}" mode="aspectFit" />
+            <text>{{item.caption}}</text>
+        </view>
+    </view>
+</page>

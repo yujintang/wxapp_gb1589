@@ -1,0 +1,18 @@
+<page>
+    <view class="comments">
+        <caption>
+            <text>{{comments.title}}</text>
+        </caption>
+        <list>
+            <list-item wx:for="{{comments.list}}">
+                <image src="{{item.avatar}}" mode="aspectFill" class="avatar" />
+                <text class="user-name">{{item.userName}}</text>
+                <text class="content">{{item.content}}</text>
+                <footer>
+                    <text class="reply" data-replyid="{{item.pid}}">回复</text>
+                    <text class="date">{{item.date}}</text>
+                </footer>
+            </list-item>
+        </list>
+    </view>
+</page>

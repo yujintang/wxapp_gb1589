@@ -1,0 +1,42 @@
+{
+    "setNavigationBarTitle": "焦点讨论",
+    "tabBar": {
+      "color":"#999",
+      "selectedColor":"#ec5b3c",
+      "backgroundColor":"#fff",
+      "borderStyle":"white",
+      "position":"bottom",
+      "list": [
+              {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath":"images/ico_index.png",
+                "selectedIconPath":"images/ico_index_selected.png"
+              },
+              {
+                "pagePath": "pages/talk/talk",
+                "text": "讨论",
+                "iconPath":"images/ico_talk.png",
+                "selectedIconPath":"images/ico_talk_selected.png"
+              },
+              {
+                "pagePath": "pages/description/description",
+                "text": "解读",
+                "iconPath":"images/ico_reading.png",
+                "selectedIconPath":"images/ico_reading.png"
+              },
+              {
+                "pagePath": "pages/nav/nav",
+                "text": "目录",
+                "iconPath":"images/ico_nav.png",
+                "selectedIconPath":"images/ico_nav.png"
+              },
+              {
+                "pagePath":"pages/recovery/recovery",
+                "text":"回顾",
+                "iconPath":"images/ico_recovery.png",
+                "selectedIconPath":"images/ico_recovery.png"
+              }
+          ]
+    }
+}

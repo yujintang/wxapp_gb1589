@@ -1,0 +1,66 @@
+.title{
+    padding: 34rpx 50rpx;
+    height: 76rpx;
+    overflow: hidden;
+}
+.title text{
+    position: relative;
+    padding: 0 8px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 24px;
+    color: #333;
+    display: inline-block;
+}
+.title text:before,.title text:after{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    content: "";
+}
+.title text:before{
+    left: 0;
+    top: 0;
+    border-top: 3px solid #EC5B3C;
+    border-left: 3px solid #EC5B3C;
+}
+.title text:after{
+    right: 0;
+    bottom: 0;
+    border-right: 3px solid #EC5B3C;
+    border-bottom: 3px solid #EC5B3C;
+}
+.catalogue-list {
+    padding-bottom: 116rpx;
+}
+.catalogue-item{
+    position: relative;
+    padding-left: 54px;
+    box-sizing: border-box;
+    border-top: 1px solid #DEDEDE;
+    padding-bottom: 15px;
+}
+.catalogue-item .num{
+    position: absolute;
+    left: 26px;
+    top: 0;
+    font-size: 16px;
+    color: #ec5b3c;
+    content: "0" counter(sort);
+    counter-increment: sort;
+    font-weight: 900;
+    line-height: 35px;
+}
+.catalogue-item caption{
+    font-size: 32rpx;
+    color: #333;
+    line-height: 70rpx;
+    font-weight:bold
+}
+.catalogue-item list-item{
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    box-sizing: border-box;
+    display:block;
+}

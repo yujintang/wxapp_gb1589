@@ -1,0 +1,28 @@
+Page({
+    data:{
+        comments:{
+            title:'更多网友问题集锦',
+            list:[
+                {
+                    avatar:'http://face.360che.com/data/avatar/new/74/01fb38a8f21b0bde1a6ca99b7926cefe_big.jpg',
+                    userName:'黄杰023',
+                    content:'大板车还能跑多久',
+                    pid:'4764',
+                    date:'2小时前'
+                },
+                {
+                    avatar:'http://wx.qlogo.cn/mmopen/BYPPjMCOic4RFE9u9PA38yCaxiawMKKqA7FItCrdQh6Jz0zwD91mPca5FP3CM5OBe1DYQoVnvNGwKFtR56mNlODzK09mGbic40ib/132',
+                    userName:'霸道022',
+                    content:'治超治超越治越超了，真是乱套啦！新规就是一个笑话',
+                    pid:'4763',
+                    date:'14小时前'
+                },
+            ]
+        }
+    },
+    onLoad:function(){
+        wx.setNavigationBarTitle({
+          title: '焦点讨论'
+        })
+    }
+})

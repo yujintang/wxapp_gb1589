@@ -1,0 +1,42 @@
+.flipview{height:400rpx}
+.flipview swiper-item{
+    position: relative;
+    overflow: hidden;
+    height:400rpx;
+}
+.flipview swiper-item image{
+    width:100%;
+}
+.flipview swiper-item text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size:24rpx;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 0 70rpx 0 24rpx;
+    box-sizing: border-box;
+    height: 34rpx;
+    line-height: 34rpx;
+    overflow: hidden;
+}
+.project-item{
+    position: relative;
+    margin-top: 20rpx;
+    overflow: hidden;
+    height:180rpx;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-item{background-image:url("http://static.360che.com/wap/images/gb1589/discuss.jpg");}
+.second-item{background-image:url("http://static.360che.com/wap/images/gb1589/reading.jpg");}
+.third-item{background-image:url("http://static.360che.com/wap/images/gb1589/see_about.jpg");}
+
+.project-item text{
+    position: absolute;
+    bottom: 14rpx;
+    right: 20rpx;
+    color: rgba(255,255,255,0.6);
+    font-size:28rpx;
+}

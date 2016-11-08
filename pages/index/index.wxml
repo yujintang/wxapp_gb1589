@@ -1,0 +1,21 @@
+<page>
+    <view class="home">
+        <swiper class="flipview" bindTouchmove="preventDefault"  indicator-dots="{{swiper.indicatorDots}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}">
+          <block wx:for="{{swiper.items}}">
+            <swiper-item>
+              <image src="{{item.url}}" class="slide-image" mode="aspectFit" />
+              <text>{{item.text}}</text>
+            </swiper-item>
+          </block>
+        </swiper>
+        <view class="section">
+            <block wx:for="{{projects}}">
+                <navigator url="{{item.navToUrl}}">
+                    <view class="project-item {{item.className}}"  bindtap="navToPage">
+                        <text>{{item.total}} {{item.text}}</text>
+                    </view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+</page>

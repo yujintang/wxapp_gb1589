@@ -1,0 +1,7 @@
+<page>
+    <view class="question-list">
+        <view class="question-item" wx:for="{{questions}}">
+            <text class="num">0{{index+1}}</text><text class="content">{{item.text}}</text>
+        </view>
+    </view>
+</page>
