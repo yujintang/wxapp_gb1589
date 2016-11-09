@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/description/description",
+    "pages/description/detail/detail",
     "pages/nav/nav",
     "pages/talk/talk",
     "pages/recovery/recovery"
@@ -37,19 +38,19 @@
               "pagePath": "pages/description/description",
               "text": "解读",
               "iconPath":"images/ico_reading.png",
-              "selectedIconPath":"images/ico_reading.png"
+              "selectedIconPath":"images/ico_reading_selected.png"
             },
             {
               "pagePath": "pages/nav/nav",
               "text": "目录",
               "iconPath":"images/ico_nav.png",
-              "selectedIconPath":"images/ico_nav.png"
+              "selectedIconPath":"images/ico_nav_selected.png"
             },
             {
               "pagePath":"pages/recovery/recovery",
               "text":"回顾",
               "iconPath":"images/ico_recovery.png",
-              "selectedIconPath":"images/ico_recovery.png"
+              "selectedIconPath":"images/ico_recovery_selected.png"
             }
         ]
   },

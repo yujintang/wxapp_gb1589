@@ -61,5 +61,10 @@ Page({
                 text:"查看"
             }
         ]
+    },
+    onLoad:function(){
+        wx.setNavigationBarTitle({
+          title: '卡车之家解读新GB1589'
+        })
     }
 })

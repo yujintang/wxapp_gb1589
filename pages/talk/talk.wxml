@@ -7,6 +7,13 @@
             <list-item wx:for="{{comments.list}}">
                 <image src="{{item.avatar}}" mode="aspectFill" class="avatar" />
                 <text class="user-name">{{item.userName}}</text>
+                <view wx:if="{{item.borrow}}" class="borrow">
+                    <view class="header">
+                        <text>{{item.borrow['userName']}}</text>
+                        <text>{{item.borrow['date']}}</text>
+                    </view>
+                    <text class="borrow-content">{{item.borrow['content']}}</text>
+                </view>
                 <text class="content">{{item.content}}</text>
                 <footer>
                     <text class="reply" data-replyid="{{item.pid}}">回复</text>

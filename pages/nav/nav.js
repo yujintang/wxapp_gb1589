@@ -64,10 +64,5 @@ Page({
                 caption:'附录部分'
             }
         ]
-    },
-    onLoad:function(){
-        wx.setNavigationBarTitle({
-          title: '标准章程'
-        })
     }
 })

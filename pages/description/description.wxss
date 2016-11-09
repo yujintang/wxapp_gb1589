@@ -15,6 +15,19 @@
     background-color: #fff;
     line-height: 100rpx;
 }
+.question-list .question-item:after{
+	content: "";
+    display: block;
+    float: right;
+    position: relative;
+    top: 42rpx;
+    right: 20rpx;
+    width: 12rpx;
+    height: 12rpx;
+    border-top: 1rpx solid #999;
+    border-right: 1rpx solid #999;
+    transform: rotate(45deg);
+}
 .question-list text{
     height:100rpx;
     line-height: 100rpx;

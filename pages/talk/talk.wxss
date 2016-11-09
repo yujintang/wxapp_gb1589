@@ -10,9 +10,9 @@
 }
 .comments caption text{
     display: block;
-    height: 41px;
-    line-height: 41px;
-    padding-left: 12px;
+    height:82rpx;
+    line-height: 82rpx;
+    padding-left: 24rpx;
 }
 .comments caption text:after{
     content: "";
@@ -69,4 +69,15 @@
     font-size: 12px;
     float: right;
     color: #999;
+}
+.reply:before{
+    margin-top:8rpx;
+    content:"";
+    width: 24rpx;
+    height:24rpx;
+    margin-right: 10rpx;
+    vertical-align:top;
+    display: inline-block;
+    background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAMFBMVEUAAACfn5+ampqXl5eZmZmXl5eZmZmYmJiZmZmZmZmYmJiYmJiZmZmZmZmZmZmZmZmaHuT5AAAAD3RSTlMAEDBAUGCPn8DP0N/g7/CGwj1zAAAAVklEQVQYlWOw/g8HmxneIzi/Gf4rMEAB03+G/wxwQICzHqT7JzLnF0E9NDMN2QvvgR5kUAd77g+DDdCDYhCfHgbJst7/4QDX9/+HAcKQPw4IE3sCYCwAJsFonUZssjoAAAAASUVORK5CYII=");
+    background-size: 24rpx 24rpx;
 }
