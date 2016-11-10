@@ -43,18 +43,21 @@ Page({
         },
         projects:[
             {
+                title:'新GB1589  焦点讨论',
                 className:"first-item",
                 navToUrl:"../talk/talk",
                 total:"4704",
                 text:"讨论"
             },
             {
+                title:'新GB1589  专家解读',
                 className:"second-item",
                 navToUrl:"../description/description",
                 total:"15202",
                 text:"解读"
             },
             {
+                title:'新GB1589  标准章程',
                 className:"third-item",
                 navToUrl:"../nav/nav",
                 total:"31829",
@@ -63,8 +66,8 @@ Page({
         ]
     },
     onLoad:function(){
-        wx.setNavigationBarTitle({
-          title: '卡车之家解读新GB1589'
+        this.setData({
+            swiperTotal:this.data['swiper'].items.length
         })
     }
 })

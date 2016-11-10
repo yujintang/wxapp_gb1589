@@ -22,17 +22,17 @@
 .title text:before{
     left: 0;
     top: 0;
-    border-top: 3rpx solid #EC5B3C;
-    border-left: 3rpx solid #EC5B3C;
+    border-top:6rpx solid #EC5B3C;
+    border-left:6rpx solid #EC5B3C;
 }
 .title text:after{
     right: 0;
     bottom: 0;
-    border-right: 3rpx solid #EC5B3C;
-    border-bottom: 3rpx solid #EC5B3C;
+    border-right:6rpx solid #EC5B3C;
+    border-bottom:6rpx solid #EC5B3C;
 }
 .catalogue-list {
-    padding:20rpx 20rpx 116rpx;
+    padding:20rpx 0;
 }
 .catalogue-item{
     position: relative;

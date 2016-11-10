@@ -1,5 +1,34 @@
 Page({
     data:{
+        status:true,
+        userInfo:{},
+        focus:false,
+        pk:[
+            {
+                title:'新国标GB1589你支持吗？',
+                likeText:'支持',
+                likeTotal:322941,
+                unlikeText:'反对',
+                unlikeTotal:322941,
+                percent:30
+            },
+            {
+                title:'6轴半挂车，你支持总重多少吨？',
+                likeText:'49吨',
+                likeTotal:322941,
+                unlikeText:'55吨',
+                unlikeTotal:322941,
+                percent:40
+            },
+            {
+                title:'双导6X2牵引车，你支持总重多少吨？',
+                likeText:'46吨',
+                likeTotal:322941,
+                unlikeText:'49吨',
+                unlikeTotal:322941,
+                percent:50
+            }
+        ],
         comments:{
             title:'更多网友问题集锦',
             list:[
@@ -80,5 +109,33 @@ Page({
                 }
             ]
         }
+    },
+    onLoad:function(){
+        var me = this;
+        wx.getUserInfo({
+            success: function(res) {
+                var userInfo = res.userInfo;
+                me.setData({
+                    userInfo:{
+                        avatar:userInfo.avatarUrl,
+                        name:userInfo.nickName
+                    }
+                })
+            },
+            fail:function(err){}
+        })
+    },
+    showBox:function(){
+        this.setData({
+            status:false
+        })
+    },
+    hideBox:function(e){
+        this.setData({
+            status:true
+        })
+    },
+    preventDefault:function(e){
+        console.log(e);
     }
 })
