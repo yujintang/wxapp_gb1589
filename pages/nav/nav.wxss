@@ -62,3 +62,19 @@
     box-sizing: border-box;
     display:block;
 }
+.to-comment{
+    position: fixed;
+    right:28rpx;
+    bottom:28rpx;
+    padding-top:54rpx;
+    width: 92rpx;
+    height:38rpx;
+    border-radius: 50%;
+    background: #EC5B3C url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAmVBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////VHQRUAAAAMnRSTlMABfEu/PnsXTwM4MbCg0gQ6OTVvqB3ZU0ZB/WxlX5CMzEq2c/IuqydcFZSNSQdzqeXaPsoKBwAAAEfSURBVDjLfZJXcsMwDESXtmz13qVExTVxSeH9D5eJxhCp+v6WuwOQICDIku+TUWwO1k+qY4pjcsHussWQ+sRHXJ6Q+N3xCXtH+G98lg/y3/vWduPqbbwhraLjk7RRo+NJ91Wqf6n7FKjxKA3vrCGjGgcGwCa/xKMzFE00jYG873ijy4bQ6MxjSDnRIHg9EC4nHESccPEq5kmBK0w+IYHDCQv+zHzyr14YGA9ZUZGXQu5gjAI29FCSPqyh7zOEsjZxHQZiqAMdoRoGmlHJFDQdeRiCPaPPXCAer4uiaYokAwYALJRLsr1QxR0deSTOjkdpSBWkpVvf2u2Mf86wFrBSYDGgmPYdmAkEiaqqN63VQQwCXsJIzgUKW8cKbZRhgT/RjX5Asa66vwAAAABJRU5ErkJggg==') no-repeat 30rpx 14rpx;
+    background-size: 32rpx 32rpx;
+    color:#fff;
+    text-align: center;
+    font-size: 24rpx;
+    line-height: 24rpx;
+    box-shadow: 0 2rpx 4rpx 0 rgba(236,91,60,0.40);
+}

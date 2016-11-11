@@ -2,6 +2,7 @@ var app = getApp();
 Page({
     data:{
         title:"国标GB1589 目录",
+        commentUrl:'../comment/comment',
         catalogue:[
             {
                 caption:'第一章 范围',

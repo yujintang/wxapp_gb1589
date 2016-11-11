@@ -11,4 +11,7 @@
             </list>
     	</view>
     </view>
+    <navigator url="{{commentUrl}}" class="to-comment">
+        <text>提问</text>
+    </navigator>
 </page>

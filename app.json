@@ -5,7 +5,8 @@
     "pages/description/detail/detail",
     "pages/nav/nav",
     "pages/talk/talk",
-    "pages/recovery/recovery"
+    "pages/recovery/recovery",
+    "pages/comment/comment"
   ],
   "window": {
     "navigationBarTitleText": "卡车之家解读新GB1589",
